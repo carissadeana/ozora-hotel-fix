@@ -1,0 +1,492 @@
+@import url('https://fonts.googleapis.com/css2?family=Sawarabi+Gothic&family=Zen+Kaku+Gothic+New&family=Zen+Maru+Gothic&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+  background: url(Untitled\ design\ \(2\).png) no-repeat fixed center;
+}
+
+.isian {
+    max-width: 990px;
+    position: relative;
+    margin: auto;
+}
+
+.slideshow-container1 {
+    max-width: 990px;
+    position: relative;
+    margin: auto;
+    background-image: url(bg_01_01.jpg);
+    height: 810px;
+}
+
+.slideshow-container2 {
+  max-width: 990px;
+  position: relative;
+  margin: auto;
+  padding-top: 100px;
+  background: url(bg02_03.jpg);
+  height: 950px;
+}
+
+.slideshow-container3 {
+  max-width: 990px;
+  position: relative;
+  margin: auto;
+  padding-top: 100px;
+  background: url(bg03_03.jpg);
+  height: 1000px;
+}
+
+.slideshow-container4 {
+  max-width: 990px;
+  position: relative;
+  margin: auto;
+  padding-top: 100px;
+  background: url(bg04_03.jpg);
+  height: 1400px;
+}
+
+.slideshow-container5 {
+  max-width: 990px;
+  position: relative;
+  margin-top: -180px;
+  background: url(bg05_06.jpg);
+  height: 1280px;
+}
+
+
+.slide-container6 {
+  max-width: 990px;
+  position: relative;
+  background: url(bg06_07.jpg);
+  margin: auto;
+  height: 1260px;
+}
+
+.navigation-bar {
+  display: flex;
+  max-width: 990px;
+  position: relative;
+  margin-top: -140px;
+  padding: 0 20px;
+}
+
+.navigation-bar :hover {
+  transform: scale(1.1);
+  z-index: 1;
+}
+
+.prev1, .next1 {
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    width: auto;
+    padding: 16px;
+    margin-top: -100px;
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+    transition: 0.6s ease;
+    border-radius: 0 3px 3px 0;
+    user-select: none;
+    background-color: #724a4a;
+  }
+
+  .next1 {
+    margin-left: 714px;
+  }
+
+  .prev1:hover, .next1:hover {
+    background-color: rgba(0,0,0,0.8);
+  }
+
+  .numbertext {
+    display: none;
+  }
+
+  .foto-slider2{
+    position: relative;
+    height: 460px;
+  }
+
+  .foto-slider3{
+    position: relative;
+    margin-top: -40px ;
+    height: 460px;
+  }
+
+  .foto-slider4{
+    position: relative;
+    margin-top: -30px ;
+    height: 460px;
+  }
+
+  .slide-nav {
+    position: absolute;
+    display: flex;
+    justify-content: space-between;
+    width: 56%;
+    top: 48%;
+    left: 40%;
+    transform: translate(-40%, -40%);
+  }
+
+  .slide-nav2 {
+    position: absolute;
+    display: flex;
+    justify-content: space-between;
+    width: 94%;
+    top: 60%;
+    left: 40%;
+    transform: translate(-40%, -40%);
+  }
+
+  .prev2, .next2 {
+    cursor: pointer;
+    /* position: absolute; */
+    /* top: 50%; */
+    width: auto;
+    padding: 20px 30px;
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+    transition: 0.6s ease;
+    border-radius: 50%;
+    user-select: none;
+    background-color: rgba(109, 100, 100, 0.8);
+  }
+
+  .next2 {
+    margin-left: 501px;
+  }
+
+  .prev2:hover, .next2:hover {
+    background-color: rgba(22, 22, 22, 0.8);
+  }
+
+  #foto-slider1 {
+    padding-top: 100px;
+    padding-left: 120px;
+    padding-right: 30px;
+  }
+
+  .text1 {
+    font-family: sawarabi gothic;
+    color: white;
+    padding-top: 30px;
+    padding-left: 10px;
+    font-size: 28px;
+  }
+
+  .text2 {
+    font-family: sawarabi gothic;
+    color: #68503e;
+    padding-top: 40px;
+    font-size: 22px;
+    text-align: center;
+  }
+
+  .text3 {
+    font-family: sawarabi gothic;
+    color: #4f2c11;
+    padding-top: 40px;
+    font-size: 22px;
+    text-align: center;
+  }
+
+  .text4 {
+    font-family: sawarabi gothic;
+    color: #471818;
+    padding-top: 40px;
+    font-size: 22px;
+    text-align: center;
+  }
+
+  .text5 {
+    font-family: sawarabi gothic;
+    color: #4a2911;
+    font-size: 22px;
+    text-align: center;
+  }
+
+  #foto {
+    margin-top: -655px;
+  }
+
+  #title1 {
+    max-width: 990px;
+    text-align: center;
+    padding-top: 60px;
+  }
+
+  #title2 {
+    max-width: 990px;
+    text-align: center;
+    padding-top: 60px;
+  }
+
+  #title3 {
+    max-width: 990px;
+    text-align: center;
+    margin-top: -55px;
+    padding-bottom: 25px;
+  }
+
+  #title4 {
+    max-width: 990px;
+    text-align: center;
+    margin-top: 165px;
+    padding-bottom: 25px;
+    padding-top: 9px;
+  }
+
+  #kupon1 p {
+    color: white;
+    font-family: sawarabi gothic;
+    text-align: center;
+    font-size: 20px;
+  }
+
+  #review p {
+    font-family: sawarabi gothic;
+    text-align: center;
+    font-size: 24px;
+  }
+
+  #review2 p {
+    font-family: sawarabi gothic;
+    text-align: center;
+    font-size: 20px;
+  }
+
+  #p01 {
+    margin-top: 200px;
+    margin-right: 400px;
+  }
+
+  #p02 {
+    margin-top: -86px;
+    margin-left: 435px;
+  }
+
+  #p03 {
+    margin-top: 235px;
+    margin-left: 20px;
+  }
+
+  #p04 {
+    margin-top: 250px;
+  }
+
+  #p05 {
+    margin-top: 122px;
+  }
+
+  #rev1 {
+    margin-top: 427px;
+    color: #6f3e14;
+  }
+
+  #rev2 {
+    color: #6f3e14;
+    margin-top: 10px;
+  }
+
+  #kup01 {
+    margin-top: 20px;
+    margin-left: 174px;
+  }
+
+  #kup01 :hover {
+    transform: scale(1.1);
+    z-index: 1;
+  }
+
+  #kup02 {
+    margin-top: -52px;
+    margin-left: 593px;
+  }
+
+  #kup02 :hover {
+    transform: scale(1.1);
+    z-index: 1;
+  }
+
+  #kup03 {
+    margin-top: -140px;
+    margin-left: 388px;
+    margin-bottom: 130px;
+  }
+
+  #kup03 :hover {
+    transform: scale(1.1);
+    z-index: 1;
+  }
+
+  #kup04 {
+    margin-top: -192px;
+    margin-left: 388px;
+  }
+
+  #kup04 :hover {
+    transform: scale(1.1);
+    z-index: 1;
+  }
+
+  #kup05 {
+    margin-top: 164px;
+    margin-left: 388px;
+  }
+
+  #kup05 :hover {
+    transform: scale(1.1);
+    z-index: 1;
+  }
+
+  .mySlides2 img {
+    display: flex;
+    margin: auto;
+    justify-content: center;
+    align-items: center;
+    padding-top: 30px;
+  }
+
+  .mySlides3 img {
+    display: flex;
+    margin: auto;
+    justify-content: center;
+    align-items: center;
+    padding-top: 30px;
+  }
+
+  .mySlides4 img {
+    display: flex;
+    margin: auto;
+    justify-content: center;
+    align-items: center;
+    padding-top: 30px;
+  }
+
+  .mySlides5 img {
+    display: flex;
+    margin: auto;
+    justify-content: center;
+    align-items: center;
+    padding-top: 16px;
+  }
+
+  .dot {
+    cursor: pointer;
+    height: 15px;
+    width: 15px;
+    margin: 0 2px;
+    background-color: #bbb;
+    border-radius: 50%;
+    display: inline-block;
+    transition: background-color 0.6s ease;
+  }
+
+  .dot1 {
+    cursor: pointer;
+    height: 15px;
+    width: 15px;
+    margin: 0 2px;
+    background-color: #ffffff;
+    border-radius: 50%;
+    display: inline-block;
+    transition: background-color 0.6s ease;
+  }
+
+  .dot2 {
+    cursor: pointer;
+    height: 15px;
+    width: 15px;
+    margin: 0 2px;
+    background-color: #ffffff;
+    border-radius: 50%;
+    display: inline-block;
+    transition: background-color 0.6s ease;
+  }
+
+  .active, .dot :hover {
+    background-color: rgb(184, 65, 65);
+  }
+
+  #bulet {
+    margin-top: -25px;
+  }
+  
+  #bulet1 {
+    margin-top: -25px;
+  }
+
+  #end1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  #end1 :hover {
+    transform: scale(1.1);
+    z-index: 1;
+  }
+
+  #end2 {
+    margin-left: 120px;
+    margin-top: -40px;
+  }
+
+  #end2 :hover {
+    transform: scale(1.1);
+    z-index: 1;
+  }
+
+  #end3 {
+    margin-left: 520px;
+    margin-top: -260px;
+  }
+
+  #end3 :hover {
+    transform: scale(1.1);
+    z-index: 1;
+  }
+
+  #end4 {
+    margin-top: -40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  #end4 :hover {
+    transform: scale(1.1);
+    z-index: 1;
+  }
+
+  .slide-container6 p {
+    font-family: sawarabi gothic;
+    color: white;
+    text-align: center;
+    font-size: 20px;
+    margin-top: 30px;
+  }
+
+  #ending img {
+    padding-top: 100px;
+
+  }
+
+  #otoshidama {
+    margin-top: -300px;
+  }
+
+  #ketupat img {
+    margin-top: -35px;
+    margin-left: 398px;
+  }
+
+
